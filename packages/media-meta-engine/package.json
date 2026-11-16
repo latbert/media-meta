@@ -1,0 +1,44 @@
+{
+  "name": "@nopilot/media-meta-engine",
+  "version": "1.0.0",
+  "description": "Deterministic modern-image metadata reader: EXIF + XMP from HEIC/HEIF/AVIF (ISOBMFF item metadata) and WebP (RIFF chunks). Shared ISOBMFF skeleton, zero runtime dependencies, zero network, zero LLM.",
+  "license": "MIT",
+  "type": "module",
+  "main": "./dist/index.js",
+  "types": "./dist/index.d.ts",
+  "exports": {
+    ".": {
+      "types": "./dist/index.d.ts",
+      "default": "./dist/index.js"
+    }
+  },
+  "files": [
+    "dist"
+  ],
+  "scripts": {
+    "build": "tsc -b"
+  },
+  "dependencies": {},
+  "engines": {
+    "node": ">=20.19"
+  },
+  "keywords": [
+    "exif",
+    "heic",
+    "heif",
+    "avif",
+    "webp",
+    "xmp",
+    "image-metadata",
+    "isobmff",
+    "local-first",
+    "offline"
+  ],
+  "author": "latbert",
+  "homepage": "https://github.com/latbert/media-meta#readme",
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/latbert/media-meta.git",
+    "directory": "packages/media-meta-engine"
+  }
+}

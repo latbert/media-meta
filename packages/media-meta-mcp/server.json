@@ -1,0 +1,27 @@
+{
+  "$schema": "https://raw.githubusercontent.com/modelcontextprotocol/registry/main/schema/server.schema.json",
+  "mcpServers": [
+    {
+      "name": "media-meta-mcp",
+      "description": "Local-first MCP server reading EXIF/XMP metadata from modern image formats: HEIC/HEIF/AVIF (ISOBMFF item metadata) and WebP (RIFF chunks). Zero runtime dependencies in the engine, zero network, zero LLM, no hosted gateway.",
+      "status": "active",
+      "repository": {
+        "source": "github",
+        "id": "latbert/media-meta"
+      },
+      "version": "1.0.0",
+      "packages": [
+        {
+          "registry_type": "npm",
+          "registry_base_url": "https://registry.npmjs.org",
+          "identifier": "@nopilot/media-meta-mcp",
+          "version": "1.0.0",
+          "transport": {
+            "type": "stdio"
+          }
+        }
+      ],
+      "remotes": []
+    }
+  ]
+}

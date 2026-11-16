@@ -1,0 +1,11 @@
+{
+  "files": [],
+  "references": [
+    {
+      "path": "packages/media-meta-engine"
+    },
+    {
+      "path": "packages/media-meta-mcp"
+    }
+  ]
+}

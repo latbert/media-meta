@@ -1,6 +1,7 @@
 {
   "name": "@nopilot/media-meta-mcp",
-  "version": "1.0.0",
+  "version": "1.0.1",
+    "mcpName": "io.github.latbert/media-meta-mcp",
   "description": "Local-first MCP server for reading EXIF/XMP metadata from modern image formats: HEIC/HEIF/AVIF (ISOBMFF item metadata) and WebP (RIFF chunks). stdio + Streamable HTTP. Zero network, zero LLM, zero runtime deps in the engine.",
   "license": "MIT",
   "type": "module",
